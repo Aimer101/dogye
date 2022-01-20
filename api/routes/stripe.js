@@ -1,5 +1,5 @@
 const stripe = require("stripe")(
-  "sk_test_51JrMopDXviqBGeLVkq8f2M18B1znCfW4t7lmRvMF3ml9ZeDew6wiXgJU0w1tGLKhOrA66fFbCPXObJ9Z8l3E6Ehe001lEWrrT5"
+  your stripe secret key
 );
 
 const payment = (req, res, next) => {
